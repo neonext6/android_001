@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">androidsendreceivetest</string>
+    <string name="title_activity_sub_01">SubActivity_01</string>
+</resources>

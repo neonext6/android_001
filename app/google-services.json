@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "515257798641",
+    "firebase_url": "https://fcm123-af4f3.firebaseio.com",
+    "project_id": "fcm123-af4f3",
+    "storage_bucket": "fcm123-af4f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515257798641:android:409b82b62df02861",
+        "android_client_info": {
+          "package_name": "com.example.androidsendreceivetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515257798641-g410cgl4mfidabsb23lllencsqp3g7db.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCumQJ1EBMjEeFjpL1ako4sJQVutv__p-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

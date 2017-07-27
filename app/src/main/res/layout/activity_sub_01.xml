@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#1ff"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/sub01_ll_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@drawable/back">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[문서제목] : "/>
+
+        <TextView
+            android:id="@+id/sub01_tv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sub01_ll_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@drawable/back"
+        android:layout_weight="0.63">
+
+        <WebView
+            android:id="@+id/sub01_wv_01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:screenOrientation="portrait"
+            android:background="@drawable/back"/>
+
+    </LinearLayout>
+
+</LinearLayout>
